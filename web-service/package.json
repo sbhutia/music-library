@@ -2,8 +2,8 @@
   "name": "web-service",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
+    "start": "node src/server.js",
     "test": "jshint"
   },
   "author": "",
@@ -12,6 +12,7 @@
     "jshint": "^2.9.4"
   },
   "dependencies": {
+    "disconnect": "^1.1.0",
     "express": "^4.15.2"
   }
 }
