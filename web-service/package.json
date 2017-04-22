@@ -1,0 +1,17 @@
+{
+  "name": "web-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jshint"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jshint": "^2.9.4"
+  },
+  "dependencies": {
+    "express": "^4.15.2"
+  }
+}
